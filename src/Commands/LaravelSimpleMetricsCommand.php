@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace SocialMind\LaravelSimpleMetrics\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelSimpleMetricsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-simple-metrics';
 
     public $description = 'My command';
 

@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "social-mind/laravel-simple-metrics",
+    "description": "Simple metric recording for laravel with multiple driver support.",
     "keywords": [
-        ":vendor_name",
+        "social-mind",
         "laravel",
-        ":package_slug"
+        "laravel-simple-metrics"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/social-mind/laravel-simple-metrics",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Dan Matthews",
+            "email": "dan@danmatthews.me",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "SocialMind\\LaravelSimpleMetrics\\": "src/",
+            "SocialMind\\LaravelSimpleMetrics\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "SocialMind\\LaravelSimpleMetrics\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "SocialMind\\LaravelSimpleMetrics\\LaravelSimpleMetricsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelSimpleMetrics": "SocialMind\\LaravelSimpleMetrics\\Facades\\LaravelSimpleMetrics"
             }
         }
     },
