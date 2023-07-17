@@ -2,9 +2,9 @@
 
 namespace SocialMind\LaravelSimpleMetrics;
 
+use SocialMind\LaravelSimpleMetrics\Commands\LaravelSimpleMetricsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SocialMind\LaravelSimpleMetrics\Commands\LaravelSimpleMetricsCommand;
 
 class LaravelSimpleMetricsServiceProvider extends PackageServiceProvider
 {
